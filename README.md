@@ -1,4 +1,6 @@
-# Salary Calculator Microservices Project
+# Nicole Hammond Python Development Portfolio
+
+# Project 1: Salary Calculator Microservices Project
 
 ## Overview
 This project comprises three distinct microservices, working together to provide a comprehensive salary calculator application. Each microservice plays a specific role in the workflow, and they collectively handle user input, tax calculations, and final salary computation. The project also includes a test to trigger Microservice 1, testing seamless integration between the components.
@@ -16,8 +18,6 @@ Key Features:
 Interaction:
 - Microservice 1 serves as the starting point of the workflow. It gathers input and sends it to Microservice 3 for initial calculations.
 
-
-
 ### Microservice 2: Tax Table Service
 Purpose:
 - Handles tax and rebate data by querying structured tax tables for calculations.
@@ -30,8 +30,6 @@ Key Features:
 
 Future-Proof Design:
 - Includes modular and maintainable code that simplifies future tax table updates.
-
-
 
 ### Microservice 3: Calculation Service
 Purpose:
@@ -49,8 +47,6 @@ Detailed logging for transparency at each stage.
 Output:
 - Returns formatted results
 
-
-
 ### Test Script
 Trigger Microservice 1
 Purpose:
@@ -66,7 +62,6 @@ How to Run the Test:
 - Ensure that Microservice 1 is running and accessible.
 - Execute the script:python trigger_microservice1.py
 - Observe the output to confirm successful communication with Microservice 1.
-
 
 ## Setup and Deployment
 ### Prerequisites
@@ -89,11 +84,9 @@ Microservice 3:
 - TAX_TABLE_SERVICE_BASE_URL: URL of Microservice 2.
 - PORT: Port number (e.g., 5002).
 
-
 ### Deployment
 - Deploy each microservice on a hosting platform such as Render.
 - Ensure that database files are included in the deployment for Microservice 2.
-
 
 ## Workflow
 Microservice 1: Accepts user input and sends it to Microservice 3.
@@ -103,8 +96,6 @@ Microservice 3: Performs initial calculations and forwards the results to Micros
 Microservice 2: Queries tax tables and returns the relevant data to Microservice 3.
 
 Microservice 3: Completes final calculations and returns detailed results.
-
-
 
 # Future Enhancements
 - Store user monthly data in a database for more accurate calculations based on year to date incomes instead of a single month in 
