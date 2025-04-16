@@ -1,4 +1,4 @@
-Salary Calculator Microservices Backend Development
+# Salary Calculator Microservices Backend Development
 
 ## Overview
 This project comprises three distinct microservices, working together to provide a comprehensive salary calculator application. Each microservice plays a specific role in the workflow, and they collectively handle user input, tax calculations, and final salary computation. The project also includes a test to trigger Microservice 1, testing seamless integration between the components.
